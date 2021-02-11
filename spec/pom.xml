@@ -12,8 +12,7 @@
     <artifactId>spec</artifactId>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <java.version>1.8</java.version>
 
         <swagger-annotations-version>1.5.22</swagger-annotations-version>
         <jersey-version>2.27</jersey-version>
@@ -161,7 +160,7 @@
             </executions>
         </plugin>
 
-        <plugin>
+        <!--<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
@@ -170,7 +169,7 @@
                 <target>1.8</target>
                 <proc>none</proc>
             </configuration>
-        </plugin>
+        </plugin>-->
     </plugins>
     </build>
 </project>
